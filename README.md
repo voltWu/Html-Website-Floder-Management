@@ -27,7 +27,7 @@ E:.
 ```
 
 # Feature
-There are three main parts that whose are navigation_bar and n avigation_tab and tab_content.
+There are three main parts that whose are navigation_bar and navigation_tab and tab_content.
 
 The navigation bars contain serials of menus that which contain serials of file items.
 
@@ -37,7 +37,7 @@ The tab content contains serials of file content that which can be text document
 
 # How to add an item in Navigation Bars
 Add an item in navigation Bars is simple. just need to throw up the below little snippet into  `<ul class="nav"></ul>` node.
-```THML
+```HTML
 <li class="dropdown">
 	<a data-toggle="dropdown" class="dropdown-toggle" href="#">MENU_1<strong class="caret"></strong></a>
 	<ul class="dropdown-menu">
